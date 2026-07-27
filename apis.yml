@@ -1,7 +1,30 @@
 aid: godhands
-name: Godhands
-description: Godhands is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: GodHands
+description: >-
+  GodHands is a Y Combinator-backed startup (2026, San Francisco) building deterministic
+  computer-use infrastructure for AI agents. It provides a high-fidelity execution layer that
+  acts as a translation interface between any model or agent runtime and the operating system,
+  letting agents reliably operate across desktop and browser applications - including legacy
+  software and API-less systems, on the premise that "if a human can see it, GodHands can
+  interact with it." Instead of fragile, probabilistic vision-based UI automation, every action
+  is designed to be repeatable and predictable, removing hallucination risk from the execution
+  layer, and every action is captured in comprehensive, immutable audit logs for debugging,
+  accountability, and regulatory compliance. The platform is organized around a Control Plane
+  plus Iceberg and Vector surfaces, and is built as the execution engine for any LLM or agent
+  framework. Positioned for regulated teams, claims-approval workflows, and moving records from
+  legacy terminals into browser-based systems.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://godhands.dev/godhands_visual.png
 url: https://raw.githubusercontent.com/api-evangelist/godhands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Computer Use
+- Desktop Automation
+- Robotic Process Automation
+- Workflow Automation
+- Automation Infrastructure
+- Agent Runtime
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/godhands-domain-security.yml
+- type: Website
+  url: https://godhands.dev
+- type: Support
+  url: mailto:founders@godhands.dev
+- type: X
+  url: https://x.com/GodHands
+- type: LLMsTxt
+  url: llms/godhands-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
