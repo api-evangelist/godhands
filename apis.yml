@@ -13,6 +13,17 @@ description: >-
   plus Iceberg and Vector surfaces, and is built as the execution engine for any LLM or agent
   framework. Positioned for regulated teams, claims-approval workflows, and moving records from
   legacy terminals into browser-based systems.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
