@@ -52,8 +52,8 @@ tags:
 - AI Agents
 - Computer Use
 - Desktop Automation
-- Robotic Process Automation
-- Workflow-Automation
+- RPA
+- Workflow Automation
 - Automation Infrastructure
 - Agent Runtime
 - Y Combinator
@@ -68,6 +68,7 @@ tags_raw:
 - Automation Infrastructure
 - Agent Runtime
 - Y Combinator
+- Workflow-Automation
 apis: []
 common:
 - type: DomainSecurity
